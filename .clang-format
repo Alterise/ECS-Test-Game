@@ -1,0 +1,15 @@
+BasedOnStyle: LLVM
+
+ColumnLimit: 95
+Language:        Cpp
+IndentWidth: 2
+PointerAlignment: Left
+SortIncludes: false
+AlwaysBreakTemplateDeclarations: true
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterClass:      false
+  AfterStruct:     false
+  AfterFunction:   false
+  BeforeCatch:     false
+  BeforeElse:      false
