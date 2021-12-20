@@ -10,11 +10,11 @@
 #include "TargetSystem.h"
 
 DamageSystem damageSystem;
-TargetSystem aggressionSystem;
+TargetSystem targetSystem;
 GameSystem gameSystem;
 
 void update(entt::registry& registry) {
-  aggressionSystem.update(registry);
+  targetSystem.update(registry);
   gameSystem.printActionList(registry);
   damageSystem.update(registry);
   gameSystem.update(registry);
